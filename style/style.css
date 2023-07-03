@@ -65,6 +65,8 @@
 #divBusca {
     display: flex;
     align-items: center;
+    width: 100%;
+    margin-right: 20px;
     border-radius: 20px;
     padding: 0 5px;
 }
@@ -75,7 +77,8 @@
     padding: 1rem;
     font-size: 1rem;
     font-family: coolvetica;
-    width: 50vh;
+    width: 100%; 
+    margin-right: 10px;
     height: 20px;
     border-radius: 15px;
     color: #00adb5;
@@ -88,6 +91,7 @@
 
 #btnBusca {
     margin-left: -30px;
+    height: 20px;
 }
 
 input:focus {
@@ -95,12 +99,14 @@ input:focus {
 }
 
 #carrinho {
-    padding: 30px;
     display: flex;
+    margin-left: 10px; /* Ajuste o valor conforme necessário */
 }
 
 #carrinho img {
-    margin: 10px;
+    width: 30px;
+    height: 20px;
+    margin: 10px 5px; /* Ajuste os valores conforme necessário */
     background: none;
     border: none;
 }
@@ -110,9 +116,16 @@ input:focus {
     transition: 0.5s;
 }
 
-#carrinho a {
-    color: #fff;
-}
+
+
+
+
+
+
+
+
+
+
 
 #carouselExampleRide {
     padding-bottom: 50px;
@@ -287,3 +300,5 @@ footer {
     max-height: 100px;
     margin-top: 50px;
 }
+
+  
